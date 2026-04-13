@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Učím se webovky</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <main>
+        <div class="container fade-in">
+            <header>
+                <h1>Učím se webovky</h1>
+                <div class="header-divider"><span>✦</span></div>
+                <button id="dark-mode-toggle" aria-label="Přepnout barevný režim">
+                    <span id="toggle-label">🌙 Tmavý režim</span>
+                </button>
+            </header>
+
+            <div class="uvod">
+                <p>Obecně jsou tři jazyky pro programování webových stránek: HTML, CSS a JavaScript. A toto jsou testovací stránky na jejich vyzkoušení :-)</p>
+                <p>Více info na odkazu zde:
+                    <a href="https://www.youtube.com/channel/UCpUD5k7SOjsiPjlVV77TB7g" target="_blank" rel="noopener">Kurzy na Youtube</a>
+                </p>
+            </div>
+
+            <div class="section-divider"><span>✦</span></div>
+
+            <div class="card-wrapper">
+                <div class="html-card card">
+                    <h2>Co je HTML?</h2>
+                    <p>
+                        <img src="images/HTML_Logo.jpg" class="logo" alt="HTML Logo">
+                        <br>
+                        <span class="bold">HTML</span> (hypertextový značkovací jazyk) je psán mezi značkami, určujícími jeho význam.
+                    </p>
+                </div>
+
+                <div class="css-card card">
+                    <h2>Co je CSS</h2>
+                    <p>
+                        <img src="images/CSS_Logo.png" class="logo" alt="CSS Logo">
+                        <br>
+                        <span class="bold">CSS</span> označujeme jako kaskádové styly, upravuje vizuální stránku HTML.
+                    </p>
+                </div>
+
+                <div class="js-card card">
+                    <h2>Co je JavaScript?</h2>
+                    <p>
+                        <img src="images/JV_Logo.jpg" class="logo" alt="JS Logo">
+                        <br>
+                        <span class="bold">JavaScript</span> je jazyk pro zajištění interaktivity stránek.
+                    </p>
+                </div>
+            </div>
+
+            <div class="section-divider"><span>✦</span></div>
+
+            <div class="notes-wrapper">
+                <div class="notes">
+                    <h2>Poznámky</h2>
+                    <ul>
+                        <li>Stránky jsou tvořeny pomocí AI Gemini</li>
+                        <li>Jedná se o testovací miš maš, aby si autor vyzkoušel jak programovací jazyky, tak AI</li>
+                        <li>Více informací k jednotlivým jazykům v sekci níže</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- VLNOVÝ PŘECHOD -->
+        <div class="wave-separator">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 80" preserveAspectRatio="none">
+                <path class="wave-path" d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z"/>
+            </svg>
+        </div>
+
+        <div class="promo-container">
+            <div class="promo-wrapper">
+
+                <!-- HTML SEKCE -->
+                <section class="promo-section fade-in" id="promo-html">
+                    <div class="content-side">
+                        <div class="text-wrapper">
+                            <h2 class="promo-title">HTML</h2>
+                            <p class="promo-description">
+                                HyperText Markup Language je základním stavebním kamenem webu.
+                                Umožňuje nám definovat strukturu obsahu a tvoří kostru každé moderní stránky.
+                            </p>
+                            <a href="javascript:void(0)" class="btn-discover" data-target="accordion-html">OBJEVIT VÍCE</a>
+                            <div class="accordion" id="accordion-html">
+                                <div class="accordion-inner">
+                                    <h3>Více o HTML</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+                                    <ul>
+                                        <li>Značky (tagy) jako &lt;h1&gt;, &lt;p&gt;, &lt;div&gt;</li>
+                                        <li>Atributy jako class, id, href</li>
+                                        <li>Sémantické elementy jako &lt;header&gt;, &lt;main&gt;, &lt;footer&gt;</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="image-side img-html"></div>
+                </section>
+
+                <div class="promo-divider"><span>✦</span></div>
+
+                <!-- CSS SEKCE -->
+                <section class="promo-section reverse fade-in" id="promo-css">
+                    <div class="content-side">
+                        <div class="text-wrapper">
+                            <h2 class="promo-title">CSS</h2>
+                            <p class="promo-description">
+                                Cascading Style Sheets vdechují webu život. Pomocí CSS určujeme barvy,
+                                rozvržení, animace a celkový vizuální dojem webu.
+                            </p>
+                            <a href="javascript:void(0)" class="btn-discover" data-target="accordion-css">OBJEVIT VÍCE</a>
+                            <div class="accordion" id="accordion-css">
+                                <div class="accordion-inner">
+                                    <h3>Více o CSS</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+                                    <ul>
+                                        <li>Selektory, vlastnosti a hodnoty</li>
+                                        <li>Flexbox a Grid pro rozvržení</li>
+                                        <li>Animace a přechody (transitions)</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="image-side img-css"></div>
+                </section>
+
+                <div class="promo-divider"><span>✦</span></div>
+
+                <!-- JS SEKCE -->
+                <section class="promo-section fade-in" id="promo-js">
+                    <div class="content-side">
+                        <div class="text-wrapper">
+                            <h2 class="promo-title">JavaScript</h2>
+                            <p class="promo-description">
+                                JavaScript dodává stránkám interaktivitu. Díky němu se web chová jako
+                                aplikace – reaguje na kliknutí a vytváří dynamický zážitek.
+                            </p>
+                            <a href="javascript:void(0)" class="btn-discover" data-target="accordion-js">OBJEVIT VÍCE</a>
+                            <div class="accordion" id="accordion-js">
+                                <div class="accordion-inner">
+                                    <h3>Více o JavaScriptu</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+                                    <ul>
+                                        <li>Proměnné, funkce a události</li>
+                                        <li>Manipulace s DOM</li>
+                                        <li>Fetch API a práce s daty</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="image-side img-js"></div>
+                </section>
+
+            </div>
+        </div>
+
+        <!-- SITEMAP -->
+        <div class="sitemap-container">
+            <div class="sitemap-wrapper">
+
+                <div class="sitemap-column">
+                    <h3 class="sitemap-heading">Obsah</h3>
+                    <ul>
+                        <li><a href="#">Úvod</a></li>
+                        <li><a href="#promo-html">Co je HTML</a></li>
+                        <li><a href="#promo-css">Co je CSS</a></li>
+                        <li><a href="#promo-js">Co je JavaScript</a></li>
+                    </ul>
+                </div>
+
+                <div class="sitemap-column">
+                    <h3 class="sitemap-heading">Zdroje</h3>
+                    <ul>
+                        <li><a href="https://www.youtube.com/channel/UCpUD5k7SOjsiPjlVV77TB7g" target="_blank" rel="noopener">Kurzy na Youtube</a></li>
+                        <li><a href="https://developer.mozilla.org/cs/docs/Web/HTML" target="_blank" rel="noopener">Dokumentace HTML</a></li>
+                        <li><a href="https://developer.mozilla.org/cs/docs/Web/CSS" target="_blank" rel="noopener">Dokumentace CSS</a></li>
+                        <li><a href="https://developer.mozilla.org/cs/docs/Web/JavaScript" target="_blank" rel="noopener">Dokumentace JavaScript</a></li>
+                    </ul>
+                </div>
+
+                <div class="sitemap-column">
+                    <h3 class="sitemap-heading">O stránce</h3>
+                    <ul>
+                        <li><a href="#">O projektu</a></li>
+                        <li><a href="#">Použité technologie</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
